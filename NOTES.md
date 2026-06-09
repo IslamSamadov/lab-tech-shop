@@ -1,5 +1,7 @@
 # Notes: my design log
 
+**Live URL (Vercel):** _paste your deployed link here_
+
 > Fill in each section as you build. Keep it short and honest. We grade the
 > reasoning, not the word count. Delete these quote lines as you go.
 

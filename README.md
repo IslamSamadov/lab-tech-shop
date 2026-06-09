@@ -48,7 +48,7 @@ Building that page is your first task.
 
 ## Your job
 
-There are four pieces plus a write-up. Build them in this order.
+There are a few pieces. Build them in this order.
 
 ### 1. The Premium / payment page (`app/premium/page.js`)
 
@@ -96,6 +96,21 @@ essay. We grade the _thinking_, not the length. Cover:
 - How you dealt with the first-render problem (see the hints below).
 - One thing you'd do differently or add if you had another hour.
 
+### 6. Deploy it to Vercel
+
+Your manager wants to see how this looks before the real production branch, so
+ship it. Put the project on **Vercel** and hand over a live URL.
+
+1. Push your code to a **GitHub** repository.
+2. Go to <https://vercel.com>, sign in with GitHub, and **Import** that repo.
+3. Vercel auto-detects Next.js. You don't need to change any build settings, and
+   there are no environment variables for this lab. Click **Deploy**.
+4. Wait for the build to finish and open the live URL. Click through the shop,
+   go premium, and refresh to confirm the deployed site behaves like your local
+   one (the product images already work, the remote host is whitelisted in
+   `next.config.mjs`).
+5. Put that live URL at the top of your `NOTES.md` so the manager can click it.
+
 ## 💡 Think about it
 
 A few nudges, no code:
@@ -122,6 +137,7 @@ A few nudges, no code:
 ✅ The navbar reaches `/premium` from every page.
 ✅ No errors or hydration warnings in the browser console.
 ✅ `NOTES.md` is written.
+✅ The app is deployed to Vercel and the live URL is in `NOTES.md`.
 
 ## If you finish early
 
